@@ -1,10 +1,15 @@
 # Slightly Impulsive
 A serverless website that personalizes online shopping by adding AI-generated product suggestions based on user's request. This website aims to make the online shopping experience more recommendation-based rather than a treasure hunt. User queries would be used to invoke an AWS Lambda function through a custom API endpoint created in Amazon API Gateway to fetch a product suggestion from OpenAI API. Each product suggestion is stored using DynamoDB and displayed on the Global History page. The website is deployed using AWS Amplify. 
 
-![](/images/website.png)
+<p align="center">
+  <img src="website.png" width="500"/>
+</p>
 
 ## Technical Architecture Diagram 
-![](/images/diagram.png)
+
+<p align="center">
+  <img src="diagram.png" width="800"/>
+</p>
 
 ## Technical Stack 
 ### React
